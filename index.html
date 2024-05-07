@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primarycolor: "#8B0000",
+              secondarycolor: "#000",
+              tertiarycolor: "#ffff",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-primarycolor text-secondarycolor">
+    <!-- HEADER AND SHOWCASE -->
+    <div >
+      <div class="bg-secondarycolor text-primarycolor italic flex justify-center text-3xl font-bold text-secondarycolor pb-5"> huncho's Autos 
+        <ion-icon class="pt-1.5" name="car"></ion-icon>
+      </div>
+      <div class="flex flex-col items-center text-3xl font-light italic">
+         visit our store and enjoy <br>the best services in the city 
+        <button class="border-2 w-60 h-10 rounded-full bg-secondarycolor border-primarycolor text-primarycolor font-thin text-2xl"> Visit Now </button>
+      </div>
+      <div class="bg-secondarycolor h-[200px]">
+      <div class="flex justify-center text-3xl text-tertiarycolor font-bold pb-8  pt-3">
+        our services
+      </div>
+      <div class="flex justify-center gap-8">
+        <div class="text-tertiarycolor font-bold text-6xl"><ion-icon name="car"></ion-icon><div class="text-base"> Best Cars Available</div></div>
+        <div class="text-tertiarycolor font-bold text-6xl"><ion-icon name="card"></ion-icon> <div class="text-base"> Easy Payments</div> </div>
+        <div class="text-tertiarycolor font-bold text-6xl"><ion-icon name="build"></ion-icon> <Div class="text-base">Best Repair Services </Div></div>
+      </div>
+    </div>
+  </div>
+    <!-- this is product section -->
+    <section>
+      <div
+        class="flex justify-center text-3xl font-bold text-secondarycolor pb-5"
+      >
+        New cars
+      </div>
+    </section>
+    <!-- images section -->
+    <section>
+      <!-- images -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 ml-5 mr-5 mb-10">
+        <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg">
+          <img class="w-[300px] h-[400px]" src="cars/69mustang.jpg" alt="mustang"/>
+          <h3 class="font-bold">69MUSTANG</h3>
+           2400 HORSEPOWER VIPER -204MPH
+         <br><button
+             class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+           >
+             SHOP NOW
+           </button>
+      </div>
+        <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg">
+          <img class="w-[300px] h-[400px]" src="cars/chevy.jpg" alt="CHEVY"/>
+      
+       <h3 class="font-bold">ORANGE DODGE</h3>
+        1020 HORSEPOWER V8 -150MPH
+      <br><button
+          class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+        >
+          SHOP NOW
+        </button>
+      </div>
+        <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg">
+          <img class="w-[300px] h-[400px]" src="cars/chevy2.jpg" alt="CHEVY"/>
+      
+          <h3 class="font-bold">BLUE DODGE</h3>
+          1040 HORSEPOWER V8 -170MPH
+         <br><button
+             class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+           >
+             SHOP NOW
+           </button>
+      </div>
+        <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg">
+          <img class="w-[300px] h-[400px]" src="cars/chevy3.jpg" alt="CHEVY"/>
+      
+          <h3 class="font-bold">BLACK DODGE</h3>
+          1050 HORSEPOWER V8 -200MPH
+         <br><button
+             class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+           >
+             SHOP NOW
+           </button></div>
+        <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg"> 
+          <img class="w-[300px] h-[400px]" src="cars/chevy4.jpg" alt="CHEVY"/>
+      
+          <h3 class="font-bold">BLACK CHEVROLET</h3>
+          1000 HORSEPOWER V6 -120MPH
+         <br><button
+             class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+           >
+             SHOP NOW
+           </button></div>
+           <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg"> 
+            <img class="w-[300px] h-[400px]" src="cars/benz.jpg" alt="CHEVY"/>
+      
+            <h3 class="font-bold">BLACK AMG</h3>
+            1075 HORSEPOWER V8 -170MPH
+           <br><button
+               class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+             >
+               SHOP NOW
+             </button></div>
+           <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg">
+            <img class="w-[300px] h-[400px]" src="cars/benz2.jpg" alt="CHEVY"/>
+      
+            <h3 class="font-bold">BLACK MERCEDES AMG</h3>
+            1075 HORSEPOWER V8 -200MPH
+           <br><button
+               class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+             >
+               SHOP NOW
+             </button></div>
+           <div class="bg-secondarycolor text-tertiarycolor h-[520px] pr-5 pl-5 pb-5 pt-5 rounded-lg">
+            <img class="w-[300px] h-[400px]" src="cars/62mustang.jpg" alt="CHEVY"/>
+      
+            <h3 class="font-bold">FORD MUSTANG</h3>
+            2075 HORSEPOWER V10 -250MPH
+           <br><button
+               class="border-2 w-32 h-10 rounded-full bg-primarycolor border-tertiarycolor"
+             >
+               SHOP NOW
+             </button></div>
+          </div>
+    <!-- footer section -->
+    <footer class="flex justify-between border-t-2 border-black bg-primarycolor text-secondarycolor ">
+      <div>Contact us 08149602710</div>
+         <div class="services">
+                    <label for="">SERVICES</label>
+                    <ul>
+                        <li><a href="">place Order</a></li>
+                        <li><a href="">See All cars</a></li>
+                        <li><a href="">Repairs</a></li>
+                        <li><a href=""> Track Cars</a></li>
+                    </ul>
+                </div>
+      <div>
+        <label for=" socials">  SOCIAL MEDIA</label>
+        <ul>
+            <li><a href=""><ion-icon name="logo-facebook"></ion-icon>Facebook</a></li>
+            <li><a href=""><ion-icon name="logo-instagram"></ion-icon>Instagram</a></li>
+            <li><a href=""><ion-icon name="logo-twitter"></ion-icon>Twitter</a></li>
+        </ul>
+      </div>
+      <div>copyright &copy; ibrahim stu 2024</div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
